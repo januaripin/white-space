@@ -1,2 +1,2 @@
-## 0.0.1 - October 24, 2022
+## 0.0.1
 * create WhiteSpace widget
