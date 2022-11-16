@@ -11,7 +11,7 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages).
 -->
 
-WhiteSpace is a space widget with a size based on the rule of 8.
+WhiteSpace is a widget to make space with a size based on the rule of 8.
 
 ## Usage
 
