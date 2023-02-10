@@ -11,21 +11,25 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages).
 -->
 
-WhiteSpace is a space widget with a size based on the rule of 8.
+WhiteSpace is a widget to create white space between widgets with the size based on the rule of 8.
+
+## Install
+
+```bash
+flutter pub add white_space
+```
 
 ## Usage
-
-```dart
-import 'package:white_space/white_space.dart';
-...
-
-Column(
-    children: [
-        Text('Title'),
-        WhiteSpace.s8(),
-        Text('Subtitle'),
-    ]
-)
-
-...
-```
+| Size           	| Usage              	|
+|----------------	|--------------------	|
+| 2              	| `WhiteSpace.xxxs`    	|
+| 4              	| `WhiteSpace.xxs`     	|
+| 8              	| `WhiteSpace.xs`      	|
+| 10             	| `WhiteSpace.s`       	|
+| 12             	| `WhiteSpace.m`       	|
+| 16             	| `WhiteSpace.l`       	|
+| 24             	| `WhiteSpace.xl`      	|
+| 32             	| `WhiteSpace.xxl`     	|
+| 64             	| `WhiteSpace.xxxl`    	|
+| Specified Size 	| `WhiteSpace.size()`  	|
+| Scale of 8     	| `WhiteSpace.scale()` 	|
