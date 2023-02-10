@@ -1,5 +1,5 @@
 name: white_space
-description: A space widget with a size based on the rule of 8
+description: A widget to create white space between widgets with the size based on the rule of 8
 version: 0.1.0
 homepage: https://github.com/januaripin/white-space
 
