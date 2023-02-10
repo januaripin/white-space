@@ -4,7 +4,7 @@ class WhiteSpace extends StatelessWidget {
   const WhiteSpace._({Key? key, this.width, this.height}) : super(key: key);
 
   /// Creates a white space with the rule of 8 size.
-  factory WhiteSpace._scale({double scale = 1, double size = 8}) =>
+  factory WhiteSpace.scale({double scale = 1, double size = 8}) =>
       WhiteSpace._(width: size * scale, height: size * scale);
 
   /// Creates a white space with the specified size.
@@ -14,31 +14,31 @@ class WhiteSpace extends StatelessWidget {
       );
 
   /// Creates a white space with the size of 2.
-  static Widget get xxxs => WhiteSpace._scale(scale: 0.25);
+  static Widget get xxxs => WhiteSpace.scale(scale: 0.25);
 
   /// Creates a white space with the size of 4.
-  static Widget get xxs => WhiteSpace._scale(scale: 0.5);
+  static Widget get xxs => WhiteSpace.scale(scale: 0.5);
 
   /// Creates a white space with the size of 8.
-  static Widget get xs => WhiteSpace._scale();
+  static Widget get xs => WhiteSpace.scale();
 
   /// Creates a white space with the size of 10.
-  static Widget get s => WhiteSpace._scale(scale: 1.25);
+  static Widget get s => WhiteSpace.scale(scale: 1.25);
 
   /// Creates a white space with the size of 12.
-  static Widget get m => WhiteSpace._scale(scale: 1.5);
+  static Widget get m => WhiteSpace.scale(scale: 1.5);
 
   /// Creates a white space with the size of 16.
-  static Widget get l => WhiteSpace._scale(scale: 2);
+  static Widget get l => WhiteSpace.scale(scale: 2);
 
   /// Creates a white space with the size of 24.
-  static Widget get xl => WhiteSpace._scale(scale: 3);
+  static Widget get xl => WhiteSpace.scale(scale: 3);
 
   /// Creates a white space with the size of 32.
-  static Widget get xxl => WhiteSpace._scale(scale: 4);
+  static Widget get xxl => WhiteSpace.scale(scale: 4);
 
   /// Creates a white space with the size of 64.
-  static Widget get xxxl => WhiteSpace._scale(scale: 8);
+  static Widget get xxxl => WhiteSpace.scale(scale: 8);
 
   @Deprecated('use WhiteSpace.xs instead')
   factory WhiteSpace.s8({double scale = 1}) => WhiteSpace._(
