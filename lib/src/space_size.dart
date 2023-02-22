@@ -1,6 +1,7 @@
 import 'base.dart';
 import 'scale_size.dart';
 
+/// Used to get the size based on the rule of 8
 class SpaceSize {
   /// Get the size of 2.
   static double get xxxs => defaultSize * ScaleSize.xxxs;

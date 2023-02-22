@@ -13,13 +13,17 @@ and the Flutter guide for
 
 WhiteSpace is a widget to create white space between widgets with the size based on the rule of 8.
 
+<br />
+
 ## Install
 
 ```bash
 flutter pub add white_space
 ```
 
-## Usage
+<br />
+
+## WhiteSpace Usage
 | Size           	| Usage              	|
 |----------------	|--------------------	|
 | 2              	| `WhiteSpace.xxxs`    	|
@@ -33,3 +37,29 @@ flutter pub add white_space
 | 64             	| `WhiteSpace.xxxl`    	|
 | Specified Size 	| `WhiteSpace.size()`  	|
 | Scale of 8     	| `WhiteSpace.scale()` 	|
+<br />
+## SpaceSize Usage
+| Size           	| Usage              	|
+|----------------	|--------------------	|
+| 2              	| `SpaceSize.xxxs`    	|
+| 4              	| `SpaceSize.xxs`     	|
+| 8              	| `SpaceSize.xs`      	|
+| 10             	| `SpaceSize.s`       	|
+| 12             	| `SpaceSize.m`       	|
+| 16             	| `SpaceSize.l`       	|
+| 24             	| `SpaceSize.xl`      	|
+| 32             	| `SpaceSize.xxl`     	|
+| 64             	| `SpaceSize.xxxl`    	|
+<br />
+## ScaleSize Usage
+| Scale           	| Usage              	|
+|----------------	|--------------------	|
+| 0.25            	| `ScaleSize.xxxs`    	|
+| 0.5            	| `ScaleSize.xxs`     	|
+| 1.0            	| `ScaleSize.xs`      	|
+| 1.25           	| `ScaleSize.s`       	|
+| 1.5            	| `ScaleSize.m`       	|
+| 2.0             	| `ScaleSize.l`       	|
+| 3.0             	| `ScaleSize.xl`      	|
+| 4.0             	| `ScaleSize.xxl`     	|
+| 8.0             	| `ScaleSize.xxxl`    	|

@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'base.dart';
 import 'scale_size.dart';
 
+/// A widget that returns a SizedBox widget that has the same height and width
 class WhiteSpace extends StatelessWidget {
   const WhiteSpace._({Key? key, this.width, this.height}) : super(key: key);
 

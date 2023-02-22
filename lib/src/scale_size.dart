@@ -1,3 +1,4 @@
+/// Used to get the scale size used by the WhiteSpace widget
 class ScaleSize {
   /// Get the scale of 0.25
   static const double xxxs = 0.25;
